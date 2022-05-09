@@ -326,11 +326,6 @@ type Candidate struct {
 	setNum int
 }
 
-type FrequencyItem struct {
-	items     [MaxTxNum]int
-	itemCount int
-}
-
 type Frequency struct {
 	items  [MaxTxNum]CandidateItem
 	setNum int
